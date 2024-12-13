@@ -1,5 +1,5 @@
 {
-  "name": "test-blog",
+  "name": "sprve-blog-vue",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,7 +13,16 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "axios": "^1.7.9",
+    "element-plus": "^2.9.0",
+    "font-awesome": "^4.7.0",
+    "js-cookie": "^3.0.5",
+    "markdown-it": "^14.1.0",
+    "mavon-editor": "^2.10.4",
+    "pinia": "^2.3.0",
+    "theaterjs": "^3.2.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
@@ -24,11 +33,13 @@
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.14.0",
     "eslint-plugin-vue": "^9.30.0",
+    "less": "^4.2.1",
     "npm-run-all2": "^7.0.1",
     "prettier": "^3.3.3",
     "typescript": "~5.6.3",
     "vite": "^6.0.1",
     "vite-plugin-vue-devtools": "^7.6.5",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
     "vue-tsc": "^2.1.10"
   }
 }
