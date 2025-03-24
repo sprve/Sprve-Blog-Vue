@@ -26,10 +26,10 @@
 								<i class="fa fa-fw fa-user-circle userImg"></i>
 								<ul class="haslogin-info">
 									<li>
-										<a href="/UserInfo">个人中心</a>
+										<a href="javascript:void(0);"><el-menu-item index="/Userinfo">个人中心</el-menu-item></a>
 									</li>
 									<li>
-										<a href="javascript:void(0);" @click="userlogout()">退出登录</a>
+										<a href="javascript:void(0);" @click="userlogout()"><el-menu-item index="/Home">退出登录</el-menu-item></a>
 									</li>
 								</ul>
 							</div>
@@ -215,6 +215,7 @@ onMounted(()=>{
 /*头部导航栏盒子*/
 
 .headBack {
+	height: 40px;
 	width: 100%;
 	background: rgba(40, 42, 44, 0.6);
 	/*margin-bottom:30px;*/
